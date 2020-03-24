@@ -1,4 +1,4 @@
-package my.spring.msscbrewery.services.impl;
+package my.spring.msscbrewery.services;
 
 import lombok.extern.slf4j.Slf4j;
 import my.spring.msscbrewery.services.BeerService;
@@ -27,6 +27,6 @@ public class BeerServiceImpl implements BeerService {
 
     @Override
     public void deleteBeer(UUID beerId) {
-    log.debug("Deeleting a beer...");
+        log.debug("Deeleting a beer...");
     }
 }

@@ -1,4 +1,4 @@
-package my.spring.msscbrewery.services.impl;
+package my.spring.msscbrewery.services;
 
 import lombok.extern.slf4j.Slf4j;
 import my.spring.msscbrewery.services.CustomerService;
