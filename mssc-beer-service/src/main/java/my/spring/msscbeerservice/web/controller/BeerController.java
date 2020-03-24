@@ -1,4 +1,4 @@
-package my.spring.msscbeerservice.web.model.controller;
+package my.spring.msscbeerservice.web.controller;
 
 import my.spring.msscbeerservice.web.model.BeerDto;
 import org.springframework.http.HttpStatus;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
-@RequestMapping("/api/v1/beer")
+@RequestMapping("/api/vi/beer")
 @RestController
 public class BeerController {
 
