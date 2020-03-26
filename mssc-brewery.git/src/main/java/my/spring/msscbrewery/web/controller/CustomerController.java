@@ -24,7 +24,7 @@ public class CustomerController {
         return new ResponseEntity<>(customerService.getCustomerById(customerId), HttpStatus.OK);
     }
     @PostMapping
-    public ResponseEntity saveBeer(@PathVariable("customerId") UUID customerId, @RequestBody CustomerDto customer){
+    public ResponseEntity saveBeer(@RequestBody CustomerDto customer){
         CustomerDto savedDto = customerService.save(customer);
         HttpHeaders headers = new HttpHeaders();
         //TODO ADD HOST NAME
